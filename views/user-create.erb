@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Testing User Create View</title>
+
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/user-create.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div id = "create-wrapper">
+
+    <div class="form-wrapper">
+      <label for="">Username:</label>
+      <input type="text" placeholder="BlackHorse559">
+
+      <label for="">Email:</label>
+      <input type="text" placeholder="example@freemail.com">
+
+      <label for="">Password:</label>
+      <input type="password" placeholder="Please don't use abcd1234">
+
+      <label for="">Upload Avatar:</label>
+          <div>
+            <input type="text" readonly>
+            <span class="input-group-btn">
+              <span class="btn btn-primary btn-file">
+                Browse&hellip; <input type="file" name="user[avatar]">
+              </span>
+            </span>
+          </div>
+        <button>Create</button>
+      </div>
+
+    </div>
+
+  <script src="../js/app.js"></script>
+  </body>
+
+</html>
