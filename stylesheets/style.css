@@ -1,0 +1,54 @@
+.activities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+    .activity {
+      width: 46%;
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+    }
+
+        .title {
+          margin: 2%;
+          font-family: 'Lobster', cursive;
+        }
+
+        .user-info {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          margin: 2%;
+          font-family: 'Roboto Condensed', sans-serif;
+        }
+
+            .user-pic {
+              border-radius: 50%;
+              width: 25%;
+              height: 25%;
+              max-width: 100px;
+              max-height: 100px;
+            }
+
+        .activity-info {
+          margin: 2%;
+          font-family: 'Roboto Condensed', sans-serif;
+        }
+
+            .location-map {
+              display: flex;
+              justify-content: center;
+              margin: 2%;
+            }
+
+                .location-map img {
+                  max-width: 100%;
+                  height:
+                }
+
+            .activity-info-content {
+              margin-top: 10%;
+            }

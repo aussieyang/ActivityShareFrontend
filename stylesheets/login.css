@@ -1,0 +1,61 @@
+#login-wrapper {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    background-image: url("http://media.giphy.com/media/77RGFO6jNhMHK/giphy.gif");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99999;
+    text-align: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 16vh;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: grey;
+}
+
+#login-wrapper h1 {
+    color: rgb(170, 217, 224);
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 0.5px black;
+}
+
+#login-wrapper input {
+    display: block;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    margin: 0px auto 1%;
+    border-radius: 5%;
+}
+
+#login-wrapper button {
+    width: 15%;
+    height: 5%;
+    font-size: 1.6vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    background-color: rgb(170, 217, 224);
+    opacity: 0.8;
+}
+
+#login-wrapper p {
+  margin-top: 60px;
+}
+
+#login-wrapper a {
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    background-color: black;
+    opacity: 0.5
+}

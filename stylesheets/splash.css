@@ -1,0 +1,60 @@
+#splash {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://farm3.staticflickr.com/2923/13988886325_55efdbe096_o.gif");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99999;
+    text-align: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#explore {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.logo {
+    margin-top: 16vh;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: grey;
+}
+
+#splash h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: 0.5px grey;
+}
+
+#splash input {
+    display: inline-block;
+    width: 20%;
+    height: 5%;
+    text-align: center;
+    margin: 0px auto 1%;
+    border-radius: 5%;
+}
+
+#splash button {
+    width: 10%;
+    height: 6%;
+    font-size: 1.6vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    background-color: rgb(170, 217, 224);
+    opacity: 0.8;
+}
+
+#splash a {
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(170, 217, 224);
+    -webkit-text-stroke: 0.5px black;
+}

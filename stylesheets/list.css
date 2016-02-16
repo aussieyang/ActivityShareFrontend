@@ -1,0 +1,31 @@
+.list-activities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .list-activity {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+        .title {
+            margin-left: 2%;
+        }
+
+        .list-user {
+            display: flex;
+            align-items: center;
+            margin: 2%;
+        }
+
+            .user-pic {
+                width: 25%;
+                height: 25%;
+                border-radius: 50%;
+            }
+
+            .list-activity p {
+                margin: 2%;
+            }
