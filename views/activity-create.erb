@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Testing Activity Create View</title>
+
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/activity-create.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <!-- Tinymce text editor -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.3.5/jquery.tinymce.min.js"></script>
+  <script> tinymce.init({ selector:'textarea' }); </script>
+</head>
+
+<body>
+
+  <div id = "create-wrapper">
+
+    <div class="form-wrapper">
+      <label for="">Activity:</label>
+      <input type="text" placeholder="Bike ride">
+
+      <div class="datetime">
+        <div>
+          <label for="">Date:</label>
+          <input type="text" placeholder="01/01/2017">
+        </div>
+        <p>@</p>
+        <div>
+          <label for="">Time:</label>
+          <input type="text" placeholder="12:00pm">
+        </div>
+      </div>
+
+
+      <label for="">Location:</label>
+      <input type="text" placeholder="Royal Botanical Gardens, Melbourne">
+
+
+      <label for="description">Details:</label>
+      <textarea name="description" class="form-control" rows="10"></textarea>
+
+      <button>Create</button>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
