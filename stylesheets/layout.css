@@ -28,13 +28,15 @@
           margin-left: 5%;
           font-family: 'Roboto Condensed', sans-serif;
           font-size: 1.8vw;
+          color: white;
+          -webkit-text-stroke: 0.1px grey;
         }
 
     .nav-bar > img {
       border-style: solid;
       border-color: grey;
       border-radius: 50%;
-      width: 9%;
+      width: 8.5%;
       min-width: 70px;
     }
 
@@ -47,6 +49,7 @@
       .search-bar input {
         width: 15vw;
         height: 2.5vw;
+        text-align: center;
       }
 
       .search-bar button {
@@ -55,5 +58,6 @@
         margin-left: 2%;
         border-radius: 50%;
         font-size: 1.2vw;
+        text-align: center;
         background-color: rgb(170, 217, 224);
       }
