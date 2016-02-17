@@ -3,17 +3,32 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Templates and Views for AS</title>
+  <title>Layout</title>
   <link rel="stylesheet" href="../stylesheets/style.css">
-  <link rel="stylesheet" href="../stylesheets/list.css">
-  <link rel="stylesheet" href="../stylesheets/show.css">
-  <link rel="stylesheet" href="../stylesheets/splash.css">
+  <link rel="stylesheet" href="../stylesheets/layout.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <%= yield %>
+
+  <div class="nav-bar">
+
+    <div class="logged-info">
+      <img src="http://placehold.it/100x100" alt="">
+      <h3>Logged In Name</h3>
+    </div>
+
+    <img src="http://placehold.it/100x100" alt="">
+
+    <div class="search-bar">
+      <input type="text" placeholder="Activity">
+      <button>&#128269;</button>
+    </div>
+
+  </div>
+
+  <script src=""></script>
 </body>
 
 </html>
