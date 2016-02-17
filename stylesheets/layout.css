@@ -1,7 +1,9 @@
 .nav-bar {
   width: 100%;
   height: 120px;
-  background-color: rgba(79, 175, 175, 0.5);
+  background-image: url("http://orig02.deviantart.net/f8e9/f/2010/238/c/a/sea_animation_by_papuzka.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin: 0;
   display: flex;
   align-items: center;
