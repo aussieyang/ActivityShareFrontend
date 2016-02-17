@@ -1,4 +1,19 @@
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+.map-full {
+  background-color: grey;
+  width: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .activities {
+  width: 75%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -37,17 +52,6 @@
           margin: 2%;
           font-family: 'Roboto Condensed', sans-serif;
         }
-
-            .location-map {
-              display: flex;
-              justify-content: center;
-              margin: 2%;
-            }
-
-                .location-map img {
-                  max-width: 100%;
-                  height:
-                }
 
             .activity-info-content {
               margin-top: 10%;
