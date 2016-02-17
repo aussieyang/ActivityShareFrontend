@@ -1,1 +1,56 @@
+.user-show-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.7vw;
+}
 
+  .user-show-wrapper h2 {
+    font-family: 'Lobster', cursive;
+  }
+
+  .info {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+  }
+
+      .info button {
+        width: 40%;
+        height: 6%;
+        font-size: 1.6vw;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: grey;
+        background-color: rgb(170, 217, 224);
+        opacity: 0.8;
+      }
+
+      .info img {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: grey;
+      }
+
+  .hosting, .attending {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+  }
+
+      .activities-wrapper {
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+          .activity-row {
+            width: 29%;
+            margin: 2%;
+          }
