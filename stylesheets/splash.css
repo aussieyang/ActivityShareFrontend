@@ -35,8 +35,10 @@
 .logo {
     margin-top: 16vh;
     border-radius: 50%;
-    border-style: solid;
-    border-color: grey;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-style: dotted;
+    border-color: white;
 }
 
 #splash h1 {

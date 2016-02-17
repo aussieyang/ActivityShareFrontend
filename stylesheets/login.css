@@ -17,7 +17,9 @@
 .logo {
     margin-top: 16vh;
     border-radius: 50%;
-    border-style: solid;
+    width: 120px;
+    background-color: white;
+    border-style: dotted;
     border-color: grey;
 }
 
