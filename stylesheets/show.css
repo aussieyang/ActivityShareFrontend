@@ -8,7 +8,7 @@
       width: 66%;
     }
 
-        .location-map {
+        .location-map img {
           width: 100%;
         }
 
@@ -42,4 +42,20 @@
             border-radius: 50%;
             padding: 5%;
             width: 30%;
+          }
+
+      .host-options {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+      }
+          .host-options button {
+            width: 20%;
+            height: 6%;
+            font-size: 1.6vw;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: grey;
+            background-color: rgb(170, 217, 224);
+            opacity: 0.8;
+            margin: 2%;
           }
