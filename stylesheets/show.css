@@ -36,6 +36,7 @@
         .smaller {
           width: 29%;
           margin: 2%;
+          justify-content: flex-start;
         }
 
           .smaller-user-pic {
