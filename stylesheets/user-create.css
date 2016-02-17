@@ -25,3 +25,15 @@
       background-color: rgb(170, 217, 224);
       opacity: 0.8;
     }
+
+        .gender-pick {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+
+            .gender-options {
+              display: flex;
+              align-items: center;
+            }
