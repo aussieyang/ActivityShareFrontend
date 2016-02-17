@@ -21,7 +21,7 @@
 
       <div class="user-info">
         <img class="user-pic" src="http://placehold.it/100x100" alt="">
-        <p class="user-name">Host: User placeholder</p>
+        <p class="user-name">Host: <a href="">User placeholder</a></p>
         <!-- Remember to add some logic here to say 'Unattend' instead if attending -->
         <button class="join">Join Activity</button>
       </div>
@@ -65,11 +65,18 @@
     </div>
 
   <!-- Logic needed here: only put in if user is the host -->
-    <div class="host-options">
-      <button>Edit Activity</button>
-      <button>Delete Activity</button>
+      <div class="host-options">
+        <button>Edit Activity</button>
+        <button>Delete Activity</button>
+      </div>
+
     </div>
 
-  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="../js/button.js"></script>
+    <script src="../js/link.js"></script>
+
+  </body>
 
 </html>
