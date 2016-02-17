@@ -8,7 +8,6 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    z-index: 99999;
     text-align: center;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -17,6 +16,20 @@
 #explore {
     text-align: left;
     margin-left: 5px;
+}
+
+#login-btn {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    margin-right: 3px;
+    width: 10%;
+    height: 6%;
+    font-size: 1.6vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+    background-color: rgb(170, 217, 224);
+    opacity: 0.8;
 }
 
 .logo {
