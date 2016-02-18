@@ -29,20 +29,30 @@
         .logged-info h3 {
           margin-left: 5%;
           font-family: 'Roboto Condensed', sans-serif;
-          font-size: 1.8vw;
+          font-size: 1.2vw;
           color: white;
-          -webkit-text-stroke: 0.1px grey;
+          -webkit-text-stroke: 0.1px black;
         }
 
-    .nav-bar > button {
-      display: none;
-      width: 10%;
-      font-size: 1.6vw;
-      font-family: 'Roboto Condensed', sans-serif;
-      color: grey;
-      background-color: rgb(170, 217, 224);
-      opacity: 0.8;
+        .logged-info a {
+          text-decoration: none;
+          color: white;
+        }
+
+    .not-logged{
+      display:none;
+      width: 20%;
     }
+
+      .not-logged button {
+        width: 45%;
+        font-size: 1.6vw;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: grey;
+        background-color: rgb(170, 217, 224);
+        opacity: 0.8;
+        margin-left: 5%;
+      }
 
     .nav-bar > img {
       border-style: solid;
