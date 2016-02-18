@@ -34,6 +34,16 @@
           -webkit-text-stroke: 0.1px grey;
         }
 
+    .nav-bar > button {
+      display: none;
+      width: 10%;
+      font-size: 1.6vw;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: grey;
+      background-color: rgb(170, 217, 224);
+      opacity: 0.8;
+    }
+
     .nav-bar > img {
       border-style: solid;
       border-color: grey;
