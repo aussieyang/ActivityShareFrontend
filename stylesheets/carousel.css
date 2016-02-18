@@ -1,0 +1,48 @@
+.carousel_inner {
+float:left; /* important for inline positioning */
+width:630px; /* important (this width = width of list item(including margin) * items shown */
+overflow: hidden;  /* important (hide the items outside the div) */
+/* non-important styling bellow */
+background: #F0F0F0;
+}
+
+.carousel_ul {
+position:relative;
+left:-210px; /* important (this should be negative number of list items width(including margin) */
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+.carousel_ul li{
+float: left; /* important for inline positioning of the list items */
+width:200px;  /* fixed width, important */
+/* just styling bellow*/
+padding:0px;
+height:110px;
+background: #000000;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:5px;
+margin-right:5px;
+}
+
+.carousel_ul li img {
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+cursor:pointer;
+cursor: hand;
+border:0px;
+}
+.scroll{
+float:left;
+height:130px;
+width:15px;
+background: #C0C0C0;
+}
+.scroll img{
+cursor: pointer;
+cursor: hand;
+}
